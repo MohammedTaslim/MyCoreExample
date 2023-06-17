@@ -65,20 +65,11 @@ public class ReadExcelWorkbookXlsx {
               }
           }
               
-}catch(Exception ex) {
-		
-}finally { if(wb != null);
+}catch(Exception ex) {	
+}finally { 
+			  if(wb != null);
 			  wb.close();
 		}
 				
 	}  
 }
-	
-
-
-	
-	
-	
-	
-	
-
